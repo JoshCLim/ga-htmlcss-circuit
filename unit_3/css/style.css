@@ -1,0 +1,67 @@
+body {
+    background-color: #DDDDDD;
+}
+
+h2, p, h3, ul, ol {
+    color: white;
+
+}
+
+ul, ol {
+	padding-left: 20px;
+}
+
+a {
+	color: #22A0F5
+}
+
+header {
+	color: #07889B;
+	background-color: #DDDDDD;
+}
+
+header h1 span a {
+	font-size: 24px;
+	margin-right: 15px;
+	font-style: none;
+	color: inherit;
+	text-decoration: none;
+}
+
+#heroimage {
+	width: 100%;
+}
+
+#slogan {
+	color: #FFFFFF;
+	background-color: #F7B733;
+}
+
+#aboutus {
+	background-color: #4ABDAC
+}
+
+#contactus {
+	background-color: #F7B733;
+}
+
+#contactus a {
+	color: #999999;
+}
+
+#pagetitle {
+	padding: 0px;
+	margin: 0px;
+}
+
+#whatweoffer {
+	background-color: #FC4A1A;
+}
+
+#aboutus{
+	float: right;
+}
+
+#navbar{
+	float:right;
+}
