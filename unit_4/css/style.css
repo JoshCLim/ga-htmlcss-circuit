@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Scope+One);
+
+body {
+    background-color: #DDDDDD;
+    margin-left: 20px;
+}
+
+h2, h3, ul, ol {
+    color: white;
+
+}
+
+ul, ol {
+	padding-left: 20px;
+}
+
+a {
+	color: #07889B;
+	text-decoration: none;
+}
+
+p, ul, ol {
+	font-family: 'Scope One';
+}
+
+header {
+	color: #07889B;
+	background-color: #DDDDDD;
+	font-family: 'Permanent Marker', cursive;
+}
+
+h3 {
+	font-family: 'Permanent Marker', cursive;
+	font-weight: lighter;
+}
+
+header h1 span a {
+	font-size: 24px;
+	margin-right: 25px;
+	font-style: none;
+	color: inherit;
+	text-decoration: none;
+}
+
+footer {
+	color: #07889B;
+	text-align: center;
+	font-style: italic;
+	padding:20px;
+	float: left;
+}
+
+.subheading {
+	font-size: 54px;
+}
+
+.subtext {
+	font-size: 24px;
+}
+
+#abovethefold {
+	background-image: url('../images/Calculator Background.jpg');
+	background-size: cover;
+	padding: 250px;
+}
+
+#slogan {
+	color: #FFFFFF;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 69px;
+	margin:0px;
+	padding:0px;
+	width:750px;
+	overflow:hidden;
+	line-height:1.5em;
+}
+
+#aboutus {
+	font-size: 32px;
+	width: 750px;
+	font-family: 'Scope One', serif;
+	line-height: 1.25em;
+	color:#FFFFFF;
+}
+
+#contactus {
+	background-image: url('../images/Cubes Background.jpg');
+	background-size: cover;
+	color: #FFFFFF;
+	float:left;
+	padding-left: 220.5px;
+	padding-right: 235px;
+	padding-bottom: 396.3px;
+	padding-top: 330px;
+}
+
+#pagetitle {
+	padding: 0px;
+	margin: 0px;
+}
+
+#whatweoffer {
+	background-image: url('../images/Numbers Background.jpg');
+	background-size: cover;
+	float: left;
+	padding-left: 220.5px;
+	padding-top: 330px;
+	padding-bottom: 330px;
+	padding-right: 237px;
+}
+
+#navbar{
+	float: right;
+}
+
+#heroimage {
+	float:right;
+	margin-right: 180px;
+	margin-top: 180px;
+}
