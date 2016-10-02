@@ -73,10 +73,10 @@ footer {
 	background-image: url('../images/Calculator Background.jpg');
 	background-size: cover;
 	padding: 250px;
+	color:#FFFFFF;
 }
 
 #slogan {
-	color: #FFFFFF;
 	font-family: 'Permanent Marker', cursive;
 	font-size: 69px;
 	margin:0px;
@@ -91,7 +91,6 @@ footer {
 	width: 750px;
 	font-family: 'Scope One', serif;
 	line-height: 1.25em;
-	color:#FFFFFF;
 }
 
 #contactus {
