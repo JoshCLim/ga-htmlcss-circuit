@@ -4,6 +4,7 @@
 body {
     background-color: #DDDDDD;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 h2, h3, ul, ol {
@@ -11,8 +12,14 @@ h2, h3, ul, ol {
 
 }
 
+h3,ul{
+  margin:0;
+  padding:0;
+}
+
 ul, ol {
 	padding-left: 20px;
+	list-style-position: inside;
 }
 
 a {
@@ -28,6 +35,9 @@ header {
 	color: #07889B;
 	background-color: #DDDDDD;
 	font-family: 'Permanent Marker', cursive;
+	width:100%;
+	position:fixed;
+	top:0px;
 }
 
 h3 {
@@ -48,7 +58,7 @@ footer {
 	text-align: center;
 	font-style: italic;
 	padding:20px;
-	float: left;
+	clear: both;
 }
 
 .subheading {
@@ -89,10 +99,10 @@ footer {
 	background-size: cover;
 	color: #FFFFFF;
 	float:left;
-	padding-left: 220.5px;
-	padding-right: 235px;
-	padding-bottom: 396.3px;
+	padding-bottom: 330px;
 	padding-top: 330px;
+	width:50%;
+	text-align:center;
 }
 
 #pagetitle {
@@ -104,10 +114,10 @@ footer {
 	background-image: url('../images/Numbers Background.JPG');
 	background-size: cover;
 	float: left;
-	padding-left: 220.5px;
-	padding-top: 330px;
-	padding-bottom: 330px;
-	padding-right: 237px;
+	padding-top: 321px;
+	padding-bottom: 321px;
+	width:50%;
+	text-align:center;
 }
 
 #navbar{
