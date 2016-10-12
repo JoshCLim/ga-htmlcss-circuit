@@ -1,10 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 @import url(https://fonts.googleapis.com/css?family=Scope+One);
+@import 'https://fonts.googleapis.com/css?family=Oswald:700';
 
 body {
     background-color: #DDDDDD;
     margin-left: 20px;
     margin-right: 20px;
+    font-size:20px;
 }
 
 h2, h3, ul, ol {
@@ -31,19 +32,18 @@ p, ul, ol {
 }
 
 header {
-	color: #07889B;
-	background-color: #DDDDDD;
-	font-family: 'Permanent Marker', cursive;
+	color: #FFFFFF;
+	background-color: #000000;
+	font-family: 'Oswald', sans-serif;	
 	width:100%;
 	position:fixed;
 	top:0px;
 }
 
 h3 {
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Oswald', sans-serif;
 	font-weight: lighter;
 }
-
 
 footer {
 	color: #07889B;
@@ -58,41 +58,51 @@ nav {
 }
 
 nav a {
-	font-size: 24px;
-	padding: 15px;
+	font-size: 1.5em;
+	padding: .5em;
+	background-color: #000000;
 	font-style: normal;
 	color: inherit;
 	text-decoration: none;
 }
 
+.clearfix:after {
+	visibility:hidden;
+	content:" ";
+	display:block;
+	clear:both;
+	font-size:0;
+	height:0;
+}
+
 .subheading {
-	font-size: 54px;
+	font-size: 2.7em;
 }
 
 .subtext {
-	font-size: 24px;
+	font-size: 1.2em;
 }
 
 #abovethefold {
 	background-image: url('../images/Calculator Background.jpg');
 	background-size: cover;
-	padding: 250px;
+	padding: 10%;
 	color:#FFFFFF;
 }
 
 #slogan {
-	font-family: 'Permanent Marker', cursive;
-	font-size: 69px;
-	margin:0px;
-	padding:0px;
-	width:750px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 3.5em;
+	margin:0;
+	padding:.5em 0;
+	width:11em;
 	overflow:hidden;
 	line-height:1.5em;
 }
 
 #aboutus {
-	font-size: 32px;
-	width: 750px;
+	font-size: 1.6em;
+	width: 23.5em;
 	font-family: 'Scope One', serif;
 	line-height: 1.25em;
 }
@@ -102,8 +112,8 @@ nav a {
 	background-size: cover;
 	color: #FFFFFF;
 	float:left;
-	padding-bottom: 330px;
-	padding-top: 330px;
+	padding-bottom: 16.5em;
+	padding-top: 16.5em;
 	width:50%;
 	text-align:center;
 }
@@ -117,16 +127,15 @@ nav a {
 	background-image: url('../images/Numbers Background.JPG');
 	background-size: cover;
 	float: left;
-	padding-top: 321px;
-	padding-bottom: 321px;
+	padding-top: 16.05em;
+	padding-bottom: 16.05em;
 	width:50%;
 	text-align:center;
 }
 
 #heroimage {
 	float:right;
-	margin-right: 3%;
-	margin-top: 10%;
+	width:40%;
 }
 
 #readmore {
@@ -136,5 +145,18 @@ nav a {
 }
 
 nav a:hover {
-	color: #FC4A1A;
+	background-color: #FC4A1A;
+}
+
+@media only screen and (max-width: 1850px) {
+	#heroimage {
+		float:none;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	#whatweoffer, #contactus {
+		float:none;
+		width:100%;
+	}
 }
